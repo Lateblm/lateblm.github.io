@@ -1,0 +1,111 @@
+        /* PC */
+        @media (min-width:1024px){
+        }
+        /* Tablet & Mobile */
+        @media (max-width:1023px){
+         .s-full-width {
+            width: 100% !important;
+            padding: 64px 16px !important;
+           }
+           
+         #tour .buy-ticket-btn {
+            padding: 16px;
+           }
+         .contact-form .form-control {
+             padding: 15px;
+         }
+         .footer-social {
+             font-size: 48px;
+         }
+         .subnav a {
+             padding: 6px 12px;
+         }
+         .contact-info {
+             line-height: 2.3;
+         }
+
+     }
+        /* Tablet */
+        @media (max-width:740px) and (max-width:1023px){
+        }
+        /* Mobile */
+        @media (max-width:740px){
+           .s-full-width {
+            width: 100% !important;
+            padding: 64px 16px !important;
+           }
+           #header {
+            overflow: hidden;
+           }
+
+           .navbar .navbar-item {
+            width: 100%;
+            /* display: none; */
+           }
+
+           .navbar .navbar-item:first-child a{
+            display: inline-block;
+            width: auto;
+           }
+
+           .navbar .navbar-item a {
+            display: block;
+            width: 100%;
+           }
+
+           #band .contact-item{
+            width: 100%;
+           }
+
+           #band .contact-img {
+            width: 70%;
+            height: auto;
+           }
+
+           #tour .ticket-lists {
+            width: 100%;
+           }
+
+           #contact .contact-info {
+            margin-bottom: 16px;
+           }
+
+           .contact-info p {
+            margin-bottom: 8px;
+           }
+
+           .contact-info a {
+            text-decoration: underline;
+            color: blue;
+           }
+
+           #contact .contact-info,
+           #contact .contact-form {
+            width: 100%;
+           }
+
+           .search-btn {
+            display: none;
+           }
+
+           .mobile-menu-btn {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+           }
+           .mobile-menu-btn:hover {
+            background-color: #ccc;
+            color: #000;
+           }
+
+           #header .subnav {
+            position: initial;
+            background-color: #333;
+           }
+
+           #header .subnav a {
+            color: #fff;
+           }
+
+        }
